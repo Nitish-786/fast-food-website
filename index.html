@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Interactive Quiz</h1>
+        <div id="quiz">
+            <!-- Questions will be injected here by JavaScript -->
+        </div>
+        <button id="next-button">Next Question</button>
+        <div id="result" class="hidden">
+            <h2>Your Score: <span id="score"></span></h2>
+            <p id="feedback"></p>
+            <button id="restart-button">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
